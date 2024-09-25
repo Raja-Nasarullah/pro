@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+     body{
+        font-family: sans-serif;
+            
+        }
+        nav{
+            background-color: #222;
+            padding:5px 20px;
+        }
+        ul{
+            list-style-type: none;
+    
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .menu li {
+            font-size: 16px;
+            padding: 15px 5px;
+             
+        }
+        .menu li a{
+            display: block;
+        }
+        /* if i want do hover on a other clicker not working thats i  making blcok it */
+        .logo a{
+            font-size: 20px ;
+        }
+        .button.secondary{
+            border-bottom: 1px #444 solid;
+        }
+        /* mobile menu */
+       .menu {
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .toggle{
+
+        }
+        .bars{
+            background-color: #999;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+        <li class="logo"><a href="#">FollowAndrew.dev</a></li>
+        <li class="item"><a href="#">HOME</a></li>
+        <li class="item"><a href="#">About US</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item button"><a href="#">Login</a></li>
+        <li class="item button secondary"><a href="#">Sign Up</a></li>
+        <li class="toggle"><span class="bars"></span></li>
+    </ul>
+    </nav>
+    <main>
+        <a href="#" style="position: fixed; bottom:0;">https://youtube.</a>
+    </main>
+    
+</body>
+</html>
